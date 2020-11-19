@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template: 300px 300px 300px / 300px 300px 300px;
+}
+
+.item {
+  text-align: center;
+  color: rgb(151, 63, 63);
+  background-color: chartreuse;
+  border: chocolate solid 1px;
+}
+
+.item:nth-of-type(4) {
+  background-color: rgb(76, 212, 135);
+  overflow: auto; /*coloca un escroll si el contendido desvorda el contenedor*/
+  display: grid;
+  /* display: inline-grid;  por el momento no esta disponible*/
+  grid-template: 30px 30px 30px / 100px 100px 100px;
+}
+
+.item .item {
+  background-color: rgb(190, 190, 87);
+  box-sizing: border-box;
+  border: yellow solid 1px;
+  margin: 0;
+}

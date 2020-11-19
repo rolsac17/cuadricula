@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 25% 50% 25%; */
+  /* grid-template-rows: 300px 200px 100px; */
+  grid-template: 300px 200px 100px / 25% 50% 25%;
+}
+
+.item {
+  text-align: center;
+  color: aliceblue;
+  background-color: red;
+  border: royalblue solid 1px;
+  margin: 1px;
+}
