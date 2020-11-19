@@ -1,0 +1,2 @@
+# cuadricula
+Manejo de cuadricula 
